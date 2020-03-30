@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/28cd6d59b1.js" crossorigin="anonymous"></script>
+        <title>Me contacter</title>
+    </head>
+
+    <body id="contacter">
+         <!-- menu de navigation -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Hamza ABDOULI</a></li>
+                <li><a href="./moncv.html">Mon CV</a></li>
+                <li><a href="./contact.php"> Me contacter</a></li>
+            </ul>
+        </nav>
+        <!-- le titre de la page -->
+        <header id="presentation">
+            <h2>Contact</h2>
+        </header>
+        <section>
+            <article id="formulaire"><!-- le formulaire de contact -->
+                <p>Laissez-moi un message !</p>
+                <form method="post" action="contact.php">
+                    <label for="mail">Adresse mail : </label>
+                    <input type="email" name="mail" id="mail" />
+                    <label for="sujet"> Sujet : </label>
+                    <input type="text" name="sujet" id="sujet" />
+                    <label for="message"> Message :</label>
+                    <textarea name="message" id="message" rows="8" cols="30"></textarea><br />
+                    <input type="submit" value="Envoyer" />
+
+                </form>
+            </article>
+        </section>
+    </body>
+</html>
+    
+ 
+   
+ 
+
